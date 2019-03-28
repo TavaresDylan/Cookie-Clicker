@@ -20,7 +20,7 @@ var nbSec = 30; /* durée du timer en s*/
 function clic() { 
 	score += multiplicateur * bonusActif;
 	//score+multiplicateur
-	div.innerHTML = score;
+	div.innerHTML = score + " cookies";
 	verifScore();
 };
 
